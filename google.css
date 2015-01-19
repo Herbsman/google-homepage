@@ -1,0 +1,218 @@
+/*.css for the Google home page*/
+
+
+
+/* Some general settings first */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+body{
+	margin:0;
+	background: #fff;
+	width:auto;
+	font-family: "Open Sans", sans;
+	font-size:0.85em;
+}
+
+form {
+	text-align:center;
+	height:100%;
+	position:absolute;
+	width:100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li{
+	float:left;
+	margin-right:1em;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+
+/* Header */
+
+#headTop {
+	min-height: 5em;
+}
+
+#menu {
+	float:right;
+	height: 5em;
+}
+
+/* Left section */
+#lMen {
+	display: inline-block;
+	height:100%;
+}
+
+#lMen ul {
+	margin: 1.70em 0;
+}
+
+#lMen ul li {
+
+	
+}
+
+
+/* Right section */
+#rMen {
+	display: inline-block;
+	height:100%;
+	margin-right:1.4em;
+	float:right;
+}
+
+
+
+
+/* Header buttons*/
+
+.mButton {
+	float:left;
+	display: inline-block;
+	background-image: url(i1_71651352.png);
+	background-size: 356px 144px;
+	opacity:0.5;
+    height:2.8em;
+	width:2.8em;
+	margin: 1.3em 0.4em;
+	transform:scale(1.08);
+}
+
+#apps {
+	background-position: -320px -52px;
+}
+
+#notify {
+	background-position: 50.5% 55%;
+	
+}
+
+#share {
+	background-position: 102% 16%;
+}
+
+#acc {
+	display: inline-block;
+	height:2.8em; width:2.8em;
+	margin: 0.9em 0.3em;
+	background: url(pp.png);
+	background-position: 0.23em 0;
+	border-radius:100%;
+}
+
+/* Body */
+
+#body{
+	display: block;
+	position:relative;
+	height:auto;
+}
+
+#logo {
+	background: url(google.png) no-repeat center center;
+	transform:scale(0.55);
+	padding-top:31%;
+}
+
+#srchfld {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width:49%;
+	border:0.1em solid #ccc;
+	height:2.4em;
+	margin-top:-10em;
+}
+
+.buttan {
+	border-radius: 0.2em;
+	background:#f5f5f5;
+	margin:15px 10px 0 0;
+	padding:7px 8px;
+	border:0.1em solid #ddd;
+	font-weight: bold;
+	color:#555;
+	font-size:0.88em;
+}
+
+
+/* Foooter */
+
+footer {
+	height:3.1em;
+	background:#eee;
+	position:fixed;
+	margin:auto;
+	left:0;
+	right:0;
+	bottom:0;
+	border:1px solid #e5e5e5;
+	border-width:1px 0 0 0;
+}
+
+footer ul {
+	position:absolute;
+	margin-top:0.9em;
+}
+
+.lFooter {
+	position: relative;
+	float:left;
+}
+
+#lFooter li a, #rFooter li a {
+	color:#636363;
+	margin-right:20px;
+}
+
+#rFooter{
+	position: relative;
+	float:right;
+	margin-right:20px;
+}
+
+
+
+/* on:hover animations */
+
+
+a:hover {
+	color:black;
+	text-decoration: underline;
+}
+
+.mButton:hover {
+	opacity:1;
+	cursor:default;
+}
+
+#acc:hover {
+	cursor:default;
+}
+
+#srchfld:hover {
+	
+	border-color: #aaa;
+}
+
+#srchfld:focus {
+	border-color: #3A9FDE;
+}
+
+.buttan:hover{
+	color:#333;
+	border:0.1em solid #ccc;
+	border-width:0.1em 0.1em 0.2em 0.1em;
+}
+
